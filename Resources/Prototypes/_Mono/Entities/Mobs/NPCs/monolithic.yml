@@ -238,7 +238,7 @@
       settings: default
     requirements:
     - !type:OverallPlaytimeRequirement
-      time: 18000 # 5 hrs
+      time: 3600 # KHR
   - type: GhostTakeoverAvailable
 
 # actual entity spawners

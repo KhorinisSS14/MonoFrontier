@@ -9,7 +9,7 @@
 #      time: 10800
 #      inverted: true # stop playing intern if you're good at science!
     - !type:OverallPlaytimeRequirement # Frontier
-      time: 10800 # Frontier
+      time: 3600 # KHR
   startingGear: ResearchAssistantGear
   icon: "JobIconResearchAssistant"
   supervisors: job-supervisors-science

@@ -5,13 +5,7 @@
   playTimeTracker: JobHeadOfSecurity
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 144000 # 40 hours - mono
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 90000 # 25 hours - mono
-    - !type:RoleTimeRequirement
-      role: JobWarden
-      time: 18000 # 5 hours - mono
+      time: 3600 # KHR
   whitelisted: true
   startingGear: SheriffGear
   alwaysUseSpawner: true

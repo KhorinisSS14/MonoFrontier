@@ -5,14 +5,11 @@
   playTimeTracker: JobDetective
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 10800 # 3 hours # mono
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 7200 # 2 hours # mono
+      time: 3600 # KHR
   alternateRequirementSets:
     longerPlaytimeLessSec:
     - !type:OverallPlaytimeRequirement
-      time: 18000 # 5 hours # mono
+      time: 3600 # KHR
   startingGear: NFDetectiveGear
   icon: JobIconNFDetective
   supervisors: job-supervisors-bailiff

@@ -5,10 +5,7 @@
   playTimeTracker: JobPirateFirstMate
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 180000 # 50 hours # mono
-    - !type:RoleTimeRequirement
-      role: JobPDVDenasvar
-      time: 28800 # 8 hours
+      time: 3600 # KHR
   #whitelisted: true # mono - comment out
   startingGear: PirateFirstMateNFGear
   alwaysUseSpawner: true

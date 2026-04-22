@@ -9,7 +9,7 @@
 #      time: 54000 #15 hrs
 #      inverted: true # stop playing intern if you're good at engineering!
     - !type:OverallPlaytimeRequirement # Frontier
-      time: 10800 # Frontier
+      time: 3600 # KHR
   startingGear: TechnicalAssistantGear
   icon: "JobIconTechnicalAssistant"
   supervisors: job-supervisors-hire # Frontier

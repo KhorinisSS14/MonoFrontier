@@ -5,11 +5,7 @@
   playTimeTracker: JobSecurityCadet
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 32400 # 9 hours # mono
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 72000 # 20 hours # mono
-      inverted: true # Leave slots open for newer, less confident players.
+      time: 3600 # KHR
   startingGear: CadetGear
   icon: JobIconCadetNF
   supervisors: job-supervisors-cadet

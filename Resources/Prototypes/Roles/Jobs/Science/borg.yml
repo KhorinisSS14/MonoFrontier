@@ -9,7 +9,7 @@
   #   role: JobBorg # Frontier
   #   time: 54000  # 15 hrs # Frontier
     - !type:OverallPlaytimeRequirement # Frontier
-      time: 10800 # 3 hrs # Frontier
+      time: 3600 # KHR
   canBeAntag: false
   icon: JobIconStationAi
   supervisors: job-supervisors-hire # Frontier: rd<hire
@@ -26,7 +26,7 @@
   setPreference: true
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 43200 # 12 hrs # Frontier: 40<12 hrs
+      time: 3600 # KHR
   canBeAntag: false
   icon: JobIconBorg
   supervisors: job-supervisors-hire # Frontier

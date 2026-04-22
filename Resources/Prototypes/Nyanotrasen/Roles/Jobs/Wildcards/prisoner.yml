@@ -6,10 +6,7 @@
   setPreference: false # Mono - nothingburger role??
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 86400 # 24 hours
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 10800 # 3 hrs
+      time: 3600 # KHR
   whitelisted: true
   startingGear: PrisonerGear
   alwaysUseSpawner: true

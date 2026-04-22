@@ -5,7 +5,7 @@
   playTimeTracker: JobTsfMarsocFTL
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 108000 # 30 hours
+    time: 3600 # KHR
   startingGear: MarsocFTLGear
   icon: "JobIconNanotrasen"
   supervisors: job-supervisors-ws
@@ -37,7 +37,7 @@
   playTimeTracker: JobTsfMarsoc
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 108000 # 30 hours
+    time: 3600 # KHR
   startingGear: MarsocOperativeGear
   icon: "JobIconNanotrasen"
   supervisors: job-supervisors-ws
