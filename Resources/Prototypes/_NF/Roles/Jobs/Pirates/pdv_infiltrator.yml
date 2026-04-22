@@ -5,13 +5,7 @@
   playTimeTracker: JobPDVInfiltrator
   requirements:
     - !type:OverallPlaytimeRequirement # mono start
-      time: 108000 # 65 hours
-    - !type:RoleTimeRequirement
-      role: JobPirate
-      time: 3600 # 1 hour
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 36000 # 10 hours # mono end
+      time: 3600 # KHR
   whitelisted: true
   startingGear: PDVInfiltratorGear
   alwaysUseSpawner: true

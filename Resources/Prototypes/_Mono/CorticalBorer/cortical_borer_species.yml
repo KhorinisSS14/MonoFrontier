@@ -10,7 +10,7 @@
     allowMovement: true
     requirements:
     - !type:OverallPlaytimeRequirement
-      time: 180000 # 50 hrs - THIS IS WHY WE CANT HAVE NICE THINGS
+      time: 3600 # KHR
     name: cortical-borer-ghostrole-name
     description: cortical-borer-ghostrole-desc
     rules: cortical-borer-ghostrole-rules
@@ -119,7 +119,7 @@
     rules: cortical-borer-ghostrole-rules
     requirements:
     - !type:OverallPlaytimeRequirement
-      time: 180000 # 50 hrs
+      time: 3600 # KHR
     mindRoles:
     - MindRoleGhostRoleFreeAgent
   - type: GhostRoleMobSpawner

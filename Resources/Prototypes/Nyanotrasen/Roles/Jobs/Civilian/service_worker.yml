@@ -5,7 +5,7 @@
   playTimeTracker: JobCCServiceWorker
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 10800
+      time: 3600 # KHR
   startingGear: CCServiceWorkerGear
   alwaysUseSpawner: true
   icon: "JobIconValet" # Frontier: JobIconServiceWorker<JobIconValet

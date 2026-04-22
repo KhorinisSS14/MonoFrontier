@@ -5,10 +5,7 @@
   playTimeTracker: JobSeniorOfficer
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 72000 # 20 hours # mono
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 36000 # 10 hours # mono
+      time: 3600 # KHR
   startingGear: SeniorOfficerGear
   icon: JobIconSergeant
   supervisors: job-supervisors-sheriff

@@ -311,7 +311,7 @@
       settings: default
     requirements:
     - !type:OverallPlaytimeRequirement
-      time: 180000 # 50 hrs
+      time: 3600 # KHR
   - type: GhostTakeoverAvailable
 
 # Remnant AI core
@@ -451,7 +451,7 @@
     prototype: VesselAICore
     requirements:
     - !type:OverallPlaytimeRequirement
-      time: 180000 # 50 hrs
+      time: 3600 # KHR
   - type: GhostTakeoverAvailable
   - type: RandomMetadata
     nameSegments: [ VesselCoreNameset ]
@@ -521,10 +521,7 @@
     prototype: TSFMCAICore
     requirements:
     - !type:OverallPlaytimeRequirement
-      time: 180000 # 50 hrs
-    - !type:RoleTimeRequirement
-      role: JobWarden
-      time: 54000 # 15 hours
+      time: 3600 # KHR
   - type: GhostTakeoverAvailable
   - type: RandomMetadata
     nameSegments: [ TSFMCCoreNameset ]

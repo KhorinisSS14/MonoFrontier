@@ -78,7 +78,7 @@
       settings: default
     requirements:
     - !type:OverallPlaytimeRequirement
-      time: 180000 # 50 hrs
+      time: 3600 # KHR
   - type: GhostTakeoverAvailable
 
 - type: entity

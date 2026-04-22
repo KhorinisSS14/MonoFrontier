@@ -5,14 +5,11 @@
   playTimeTracker: JobDirectorOfCare
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 162000 # mono - 45 hours
-    - !type:DepartmentTimeRequirement
-      department: Medical
-      time: 72000 # mono - 20 hours
+      time: 3600 # KHR
   alternateRequirementSets: # mono
     longerPlaytimeLessSec: # mono
     - !type:OverallPlaytimeRequirement # mono
-      time: 234000 # mono 65 hours
+      time: 3600 # KHR
   startingGear: DocGear
   alwaysUseSpawner: true
   assignedCompany: MD

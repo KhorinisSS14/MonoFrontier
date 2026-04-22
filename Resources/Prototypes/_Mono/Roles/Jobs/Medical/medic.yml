@@ -5,7 +5,7 @@
   playTimeTracker: MdMedic
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 54000 # 15 hrs
+      time: 3600 # KHR
   startingGear: MdMedicGear
   alwaysUseSpawner: true
   icon: "JobIconMedicalDoctor"

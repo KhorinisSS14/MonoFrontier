@@ -14,7 +14,7 @@
     role: JobUSSPMedic
     time: 10800 # 3 hrs
   - !type:OverallPlaytimeRequirement
-    time: 144000 # 40 hrs
+    time: 3600 # KHR
   startingGear: USSPCommissarGear
   alwaysUseSpawner: true
   hideConsoleVisibility: true
