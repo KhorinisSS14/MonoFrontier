@@ -20237,3 +20237,52 @@ Entries:
   id: 2230
   time: '2026-04-21T02:20:59.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3851
+- author: kasature90
+  changes:
+    - type: Add
+      message: First aid kits and Compact Defibrillators now use Baystation12 textures.
+  id: 2231
+  time: '2026-04-21T22:24:15.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3848
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: Tea visual layers don't cause errors now.
+    - type: Fix
+      message: Shields are less laggy.
+    - type: Fix
+      message: >-
+        Shields now take the full damage of any explosive projectile explosion
+        they block.
+    - type: Tweak
+      message: >-
+        Shield durability and recharge buffed dramatically to compensate for
+        taking much more damage now.
+    - type: Tweak
+      message: >-
+        Examining a shield generator now tells you the exact wattage it is
+        consuming from both base consumption and damage.
+  id: 2232
+  time: '2026-04-22T02:22:06.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3596
+- author: kasature90
+  changes:
+    - type: Tweak
+      message: More rad resistance for walls.
+  id: 2233
+  time: '2026-04-22T13:25:41.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3854
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: Atmos/NPC short term memory optimizations
+  id: 2234
+  time: '2026-04-22T15:22:53.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3853
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: Flatpacks now can be unpacked in shields, in railings, etc.
+  id: 2235
+  time: '2026-04-22T18:19:59.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3856
