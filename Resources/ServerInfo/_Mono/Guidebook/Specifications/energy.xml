@@ -1,41 +1,41 @@
 <Document>
-  # Energy Weapons Specifications
-  Notes:
-  - For munitions that accelerate over time (such as missiles), range is a rough estimate.
-  - For munitions that are fired at a static speed (such as normal weapons), range is simply just the launch velocity * projectile lifetime.
-  - RPS may not be accurate due to it being capped by server tick speed (usually 20 or 30 ticks/second).
-  - Rare guns such as ADS/NT/Syndicate shipguns will not be included.
+  # Технические характеристики энергетического оружия
+  Примечания:
+  - Для боеприпасов, ускоряющихся со временем (например, ракет), дальность является приблизительной оценкой.
+  - Для боеприпасов, стреляющих с постоянной скоростью (например, обычного оружия), дальность определяется как скорость запуска * время жизни снаряда
+  - Показатель скорострельности может быть неточным, поскольку он ограничен скоростью обновления сервера (обычно 20 или 30 тиков в секунду).
+  - Редкие орудия, такие как корабельные орудия ADS/NT/Syndicate, не будут включены.
 
   ## Specifications (as of 24-Oct-2025)
   <Table Columns="7">
     <ColorBox>
       <Box>
-        Name
+        Название
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Projectile Type
+        Тип
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Firerate
+        Скорострельность
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Munition Range
+        Дальность стрельбы
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Velocity
+        Скорость
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Size Class
+        Размер
       </Box>
     </ColorBox>
     <!--Marauder-->
