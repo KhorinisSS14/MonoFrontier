@@ -1,27 +1,27 @@
 <Document>
-  # Central Galactic Bank
+  # Галактический банк ТСФ
 
-As a contractor in the galaxy, you are licensed under the Central Galactic Bank. This permits you access to a persistent bank account.
-Money that you [bold]deposit[/bold] at an [color=#44cc00]ATM[/color] on the Colonial Outpost or any other ATM will be stored in your account.
+Как подрядчик Nanotrasen, вы имеете постоянный банковский счёт.
+Деньги, которые вы [bold]вносите[/bold] в [color=#44cc00]банкомат[/color] на Станции Колосс или любом другом банкомате, будут храниться на вашем счёте.
 
-## ATMs
+## Банкоматы
   <Box>
     <GuideEntityEmbed Entity="ComputerBankATM"/>
     <GuideEntityEmbed Entity="SpaceCash1000"/>
   </Box>
-  You can access your personal bank account at any time to withdraw your hard-earned [color=#44cc00]Credits[/color] at any [color=#44cc00]Galactic Bank ATM[/color].
+  Вы можете получить доступ к своему личному банковскому счёту в любое время, чтобы снять честно заработанные [color=#44cc00]Кредиты[/color] в любом [color=#44cc00]банкомате Галактического Банка[/color].
 
-Any ATM that you find that isn't directly labelled [bold]withdraw only[/bold] lets you withdraw and deposit cash.
-Make sure you deposit your cash and sell off your ship before ending your shift!
+Любой найденный вами банкомат, на котором не указано [bold]только снятие[/bold], позволяет как снимать, так и вносить наличные.
+Обязательно внесите свои деньги и продайте корабль перед окончанием смены!
 
-## Account Access
+## Доступ к счёту
   <Box>
     <GuideEntityEmbed Entity="VendingMachineAstroVend"/>
     <GuideEntityEmbed Entity="ComputerCargoOrders"/>
     <GuideEntityEmbed Entity="VendingMachineAmmo"/>
   </Box>
-  Your bank account can be used through [color=#44cc00]Galactic Bank ATMs[/color], [color=#44cc00]cargo computers[/color], and [color=#44cc00]vending machines[/color].
+  Ваш банковский счёт можно использовать через [color=#44cc00]банкоматы Галактического Банка[/color], [color=#44cc00]грузовые терминалы[/color] и [color=#44cc00]торговые автоматы[/color].
 
-When trading with other people, you'll usually deal in stacks of [color=#44cc00]Credits[/color].
-Be sure to deposit these at an [color=#44cc00]ATM[/color] before ending your shift.
+При торговле с другими игроками вы обычно будете иметь дело наличными [color=#44cc00]кредитами[/color].
+Не забудьте внести их в [color=#44cc00]банкомат[/color] перед окончанием смены.
 </Document>

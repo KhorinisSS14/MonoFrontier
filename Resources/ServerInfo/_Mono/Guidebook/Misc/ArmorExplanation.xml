@@ -1,78 +1,79 @@
 <Document>
-  # Armor Mechanics
+  # Механика брони
 
-  ## Coefficient Resistance
+  ## Сопротивление через коэффициенты
+
 
   <Box>
     <GuideEntityEmbed Entity="ClothingOuterHardsuitM82c"/>
     <GuideEntityEmbed Entity="ClothingOuterHardsuitPirateScaf"/>
   </Box>
 
-  Most armor found in the Colossus sector protects the wearer by reducing incoming damage through multiplying the damage by a [color=orange]coefficient[/color].
+  Большая часть брони в Секторе Колосс защищает владельца, снижая входящий урон путём умножения урона на [color=orange]коэффициент[/color].
 
 
-    Example: a [color=red]30[/color] pierce damage bullet hits a player wearing armor with a [color=cyan]0.6[/color] pierce coefficient (which the armor displays in game as "Reduces damage by 40%")
+    Пример: пуля с [color=red]30[/color] ед. пробивающего урона попадает в игрока, носящего броню с коэффициентом пробивания [color=cyan]0,6[/color] (в игре броня отображает это как «Снижает урон на 40%»)
 
-    Calculation: [color=orange]30 * 0.6 = 18[/color]
+    Расчёт: [color=orange]30 * 0,6 = 18[/color]
 
-    Thus the armor wearer ultimately recieves [color=red]18[/color] pierce damage (or the base damage reduced by 40%, as is stated in the armor description.)
-
-
-  This can become more complicated, though, when a player is wearing multiple items that grant it armor protection.
-  In such an example, armor resistance is *not* additive - instead, it is multiplicative as so:
+    Таким образом, владелец брони в итоге получает [color=red]18[/color] ед. пробивающего урона (или базовый урон, сниженный на 40%, как указано в описании брони).
 
 
-    Example: [color=red]30[/color] pierce damage bullet hits a player wearing three pieces of armor, each with a [color=cyan]0.6[/color] pierce damage coefficient.
+  Однако ситуация усложняется, когда игрок носит несколько предметов, обеспечивающих бронезащиту.
+  В таком случае сопротивление брони не суммируется аддитивно — вместо этого оно применяется мультипликативно:
 
-    Calculation: [color=orange](((30 * 0.6) * 0.6) * 0.6) = 6.48, [/color]or[color=orange] 30 * 0.6 = 18... 18 * 0.6 = 10.8... 10.8 * 0.6 = 6.48[/color]
 
-    Thus the armor wearer ultimately recieves [color=red]6.48[/color] pierce damage.
+    Пример: пуля с [color=red]30[/color] ед. пробивающего урона попадает в игрока, носящего три предмета брони, каждый с коэффициентом пробивания [color=cyan]0,6[/color].
 
-  ## Conventional Shields
+    Расчёт: [color=orange](((30 * 0,6) * 0,6) * 0,6) = 6,48, [/color]или[color=orange] 30 * 0,6 = 18... 18 * 0,6 = 10,8... 10,8 * 0,6 = 6,48[/color]
+
+    Таким образом, владелец брони в итоге получает [color=red]6,48[/color] ед. пробивающего урона.
+
+  ## Обычные щиты
 
   <Box>
     <GuideEntityEmbed Entity="RiotShield"/>
   </Box>
 
-  Handheld shields function similarly to "normal" armor, in that they use a coefficient to provide resistance. However, their main distinction comes from the fact that they have a seperate health pool and resistances from the player, that a percent of damage taken by the holder can be routed to.
-  If this health pool runs out, conventional shields will usually enter a "broken" state, where they lose functionality.
+  Ручные щиты работают аналогично «обычной» броне: они используют коэффициент для обеспечения сопротивления. Однако их главное отличие заключается в том, что у них есть отдельный запас прочности и собственные показатели сопротивления, на которые может перенаправляться определённая часть урона, получаемого владельцем.
+  Если этот запас прочности исчерпывается, обычные щиты обычно переходят в состояние «поломки», при котором они теряют функциональность.
 
 
-    Example: a [color=red]30[/color] pierce damage bullet hits a player holding a shield that absorbs [color=cyan]50%[/color] of incoming damage.
+    Пример: пуля с [color=red]30[/color] ед. пробивающего урона попадает в игрока, держащего щит, который поглощает [color=cyan]50%[/color] входящего урона.
 
-    50% of damage is applied to the shield's health pool, and the rest is applied to the player (and then subjected to their armor calculations.)
+    50% урона применяется к запасу прочности щита, а остальная часть — к игроку (после чего к ней применяются расчёты брони игрока).
 
-    Thus the shield wielded ultimately recieves [color=red]15[/color] pierce damage, and the shield recieves 15 damage.
+    Таким образом, владелец щита в итоге получает [color=red]15[/color] ед. пробивающего урона, а щит получает 15 ед. урона.
 
-    Shields also usually have normal Coefficient resistance but it only defends the shield's health. This effectively increases the shield's effective health pool, by making it take less damage from certain sources.
+    Щиты также обычно имеют обычное коэффициентное сопротивление, но оно защищает только запас прочности щита. Это эффективно увеличивает реальный запас прочности щита, заставляя его получать меньше урона от определённых источников.
 
 
-  ## Energy Shields
+  ## Энергетические щиты
 
   <Box>
     <GuideEntityEmbed Entity="EnergyShield"/>
   </Box>
 
-  Energy shields function very similarly to conventional shields. Their main difference comes from the fact that they usually operate using an internal battery that can recharge over time. This really only means that they have health regeneration.
+  Энергетические щиты работают очень похоже на обычные щиты. Их главное отличие заключается в том, что они обычно питаются от встроенного аккумулятора, способного перезаряжаться со временем. По сути, это означает, что у них есть регенерация здоровья.
 
-  When their energy runs out (either due to EMP or damage taken), they will shut down and stop protecting the wielder until their battery is fully charged.
+  Когда их энергия заканчивается (из-за ЭМИ или полученного урона), они отключаются и перестают защищать владельца, пока аккумулятор полностью не зарядится.
 
-  ## Reflection
+  ## Отражение
 
   <Box>
     <GuideEntityEmbed Entity="WeaponHFKatana"/>
   </Box>
 
-  A few shields (and weapons) have the ability to reflect incoming projectiles (usually lasers). When this occurs (with a chance per projectile depending on the item stats) damage is not recieved and the projectile is reflected back with a random direction offset.
+  Некоторые щиты (и оружие) обладают способностью отражать входящие снаряды (обычно лазеры). Когда это происходит (с определённой вероятностью для каждого снаряда, зависящей от характеристик предмета), урон не применяется, а снаряд отражается обратно со случайным отклонением траектории.
 
-  ## Shielded Armor
+  ## Броня с энергощитом
 
   <Box>
     <GuideEntityEmbed Entity="ClothingOuterHardsuitAshenElite"/>
     <GuideEntityEmbed Entity="ClothingOuterHardsuitNfsdExperimental"/>
   </Box>
 
-  Some armors have energy shields built in. These follow the same mechanics as energy shields, with their battery counting as the shields' health pool.
-  To activate their shield, alt-click the armor while it is equipped, or toggle it in the right-click context menu.
+  Некоторые виды брони имеют встроенные энергощиты. Они следуют тем же механикам, что и обычные энергощиты, при этом заряд их аккумулятора считается запасом прочности щита.
+  Чтобы активировать щит, выполните alt-клик по броне, пока она экипирована, или переключите его в контекстном меню по правой кнопке мыши.
 
 </Document>

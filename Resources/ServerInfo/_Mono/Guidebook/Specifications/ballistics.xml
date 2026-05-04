@@ -1,42 +1,42 @@
 <Document>
-  # Ballistic Weapons Specifications
-  Notes:
-  - Munition range & ammo capacity is taken from the standard magazine & ammunition that comes loaded with the weapon.
-  - For munitions that accelerate over time (such as missiles), range is a rough estimate.
-  - For munitions that are fired at a static speed (such as normal weapons), range is simply just the launch velocity * projectile lifetime.
-  - RPS may not be accurate due to it being capped by server tick speed (usually 20 or 30 ticks/second).
-  - Rare guns such as ADS/NT/Syndicate shipguns will not be included.
+  # Технические характеристики баллистического оружия
+  Примечания:
+  - Дальность стрельбы и вместимость боеприпасов указаны для стандартного магазина и боеприпасов, поставляемых с оружием.
+  - Для боеприпасов, ускоряющихся со временем (например, ракет), дальность является приблизительной оценкой.
+  - Для боеприпасов, стреляющих с постоянной скоростью (например, обычного оружия), дальность определяется как скорость запуска * время жизни снаряда
+  - Скорость выстрела может быть неточной из-за ограничения скорости сервера (обычно 20 или 30 тиков в секунду).
+  - Редкие орудия, такие как ADS/NT/корабельные орудия синдикатов, не будут включены в расчет.
 
   ## Specifications (as of 24-Oct-2025)
   <Table Columns="7">
     <ColorBox>
       <Box>
-        Name
+        Название
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Ammo Capacity
+        Боезапас
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Firerate
+        Скорострельность
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Munition Range
+        Дальность стрельбы
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Velocity
+        Скорость
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Size Class
+        Размер
       </Box>
     </ColorBox>
     <!--L85-->

@@ -1,21 +1,21 @@
 <Document>
-# Sector Topology
+# Топология сектора
 
 <!-- Note: range values will not scale with the world size cvar! -->
 
-The Colossus Sector consists of a large, disk-like asteroid belt. In the center of the belt, Colossus Central serves as the arrival point for greenhorns and seasoned pilgrims alike.
+Сектор Колосс состоит из крупного астероидного пояса дискообразной формы. В центре пояса расположена Станция Колосс — точка прибытия как для новичков, так и для опытных пилигримов.
 
-The area immediately around Colossus Central is mostly empty space. Beyond this, there are [bold]four distinct zones[/bold]:
+Область непосредственно вокруг Станции Колосс — это преимущественно пустое пространство. За её пределами расположены [bold]четыре отдельные зоны[/bold]:
 
 <Box Margin="0">
   <GuideEntityEmbed Entity="MonoSectorMap" Caption="" Margin="-20"/>
 </Box>
 
-- The [color=#c73232]inner ring[/color] ([color=gold]≤5 km[/color]) has been developed into a base for service stations like [color=forestgreen]Trade Outpost[/color] and [color=mediumturquoise]Medical Dispatch[/color]. You can still find errant scrap, small asteroids, and the occasional wreck, but better materials are found further out. At the edge of this zone, you'll find [color=green]Cargo Depots[/color], the destination for most cargo freighters.
-- The [color=#fbf236]middle ring[/color] ([color=gold]~5–9 km[/color]) is the foundation for our industrial base. With a wide variety of [color=orchid]minerals[/color] available for mining and a variety of [color=lightpink]gas deposits[/color] available for drilling, this is a [color=peru]miner's[/color] breadbasket.
-- The [color=#286c9c]outer ring[/color] ([color=gold]~9–20 km[/color]) is where you'll find massive [color=skyblue]icy asteroids[/color] and unusual [color=orange]brass wrecks[/color]. This ring is the subject of interest for most [color=plum]researchers[/color] in the sector.
-- The [color=#af0f0f]far ring[/color] ([color=gold]20+ km[/color]) is [color=red]not well-studied[/color]. Encounters with unknown ships have been reported.
+- [color=#c73232]Внутреннее кольцо[/color] ([color=gold]≤5 км[/color]) застроено базами обслуживающих станций, таких как [color=forestgreen]Торговый форпост[/color] и [color=mediumturquoise]Медицинский диспетчерский пункт[/color]. Здесь ещё можно встретить разбросанный металлолом, небольшие астероиды и отдельные обломки кораблей, однако более ценные ресурсы расположены дальше. На границе этой зоны находятся [color=green]Грузовые депо[/color] — основные пункты назначения для грузовых фрахтовщиков.
+- [color=#fbf236]Среднее кольцо[/color] ([color=gold]~5–9 км[/color]) составляет основу нашей промышленной инфраструктуры. Благодаря разнообразию [color=orchid]минералов[/color] для добычи и множеству [color=lightpink]газовых месторождений[/color] для бурения, эта зона служит [color=peru]главным источником ресурсов для шахтёров[/color].
+- [color=#286c9c]Внешнее кольцо[/color] ([color=gold]~9–20 км[/color]) — здесь вы найдёте массивные [color=skyblue]ледяные астероиды[/color] и необычные [color=orange]латунные обломки[/color]. Это кольцо представляет наибольший интерес для [color=plum]исследователей[/color] сектора.
+- [color=#af0f0f]Дальнее кольцо[/color] ([color=gold]20+ км[/color]) [color=red]изучено недостаточно[/color]. Зафиксированы случаи встреч с неизвестными кораблями.
 
-Beyond this, the far ring continues indefinitely. Travellers entering this zone without sufficient preparation and means of threat management risk never returning again.
+За пределами этой зоны дальнее кольцо простирается бесконечно. Путешественники, входящие в эту область без надлежащей подготовки и средств защиты, рискуют не вернуться.
 
 </Document>

@@ -1,39 +1,35 @@
 <Document>
-  # Harpies
+  # Гарпии
 
   <Box>
     <GuideEntityEmbed Entity="MobHarpyDummy" Caption=""/>
   </Box>
 
-  An avian humanoid species that features colorful feathered wings and tails that can mimic almost any sound.
+  Это человекоподобная птица с яркими пернатыми крыльями и хвостами, способными имитировать практически любой звук.
 
-  They are quite sensitive to the air quality, and when exposed to low quality air, they will begin to visibly gasp, and eventually start choking.
-  When this happens, a Harpy should either move away from sources of bad air, stand on top of a scrubber for a few seconds, or take a few breaths from a pure oxygen tank in order to restore their blood-oxygen levels. Only three seconds of being on pure oxygen is enough to completely restore a Harpy's blood oxygen saturation.
+  Они очень чувствительны к качеству воздуха, и при воздействии воздуха низкого качества начинают заметно задыхаться, а затем и вовсе задыхаться.
+  В этом случае гарпии следует либо отойти от источников загрязненного воздуха, либо постоять несколько секунд на очистителе воздуха, либо сделать несколько вдохов из баллона с чистым кислородом, чтобы восстановить уровень кислорода в крови. Всего трех секунд пребывания на чистом кислороде достаточно, чтобы полностью восстановить насыщение крови кислородом.
 
-  ## Diet
+  ## Питание
+  - Может есть сырое мясо.
+  - Отравляется теобромином (шоколад, чай, кофе) и аллицином (лук, чеснок).
 
-  - Can eat raw meat.
-  - Will get poisoned by Theobromine (Chocolate, Tea, Coffee) and Allicin (Onion, Garlic).
+  ## Преимущества
+  - Несколько меньше людей, хотя и не такие маленькие, как фелиниды.
+  - Используют свои когти для нанесения колющего урона.
+  - Могут имитировать около 70% звуков из игровой библиотеки с помощью огромного списка голосовых эмоций.
+  - Могут «петь» MIDI-файлы, имитируя инструменты. Щелкните правой кнопкой мыши по себе, чтобы выбрать инструмент.
 
-  ## Benefits
+  ## Особенности
+  - По умолчанию обладают способностью «Ультрафиолетовое зрение». Ее можно отключить в настройках специальных возможностей.
+  - Не могут носить комбинезоны и автоматически начинают игру в комбинезоне-юбке.
+  - Во время пения вокруг их головы появляются музыкальные ноты.
 
-  - Somewhat smaller than Humans, although not as small as Felinids
-  - Uses their talons to deal Piercing damage
-  - Can imitate around 70% of the game's sound library through a huge list of voice emotes
-  - They can "Sing" midis by imitating instruments. Right click yourself to select an instrument
-
-  ## Special
-
-  - Comes with the Ultraviolet Vision trait by default. This can be disabled via accessibility options.
-  - Cannot wear Jumpsuits, and will automatically start with a Jumpskirt instead.
-  - While singing, musical notes appear floating around their head.
-
-  ## Drawbacks
-
-  - Takes 10% more Blunt and Slash damage.
-  - Extreme low density, Harpies are lighter than even Felinids, and weigh half as much as a Human.
-  - A Harpy breathes in air twice as often as Humans, inhaling and exhaling every 3 seconds.
-  - - Air tanks last half as long and Harpies are more susceptible than usual to low air quality.
-  - - If a Harpy is exposed to at least 0.2 moles of combined CO2 and/or Miasma, they start struggling to take in oxygen.
+  ## Недостатки
+  - Получают на 10% больше урона от тупых и режущих ударов.
+  - Крайне низкая плотность, гарпии легче даже кошачьих и весят вдвое меньше человека.
+  - Гарпия дышит в два раза чаще, чем человек, вдыхая и выдыхая каждые 3 секунды.
+  — Баллоны с воздухом служат вдвое меньше, и гарпии более восприимчивы, чем обычно, к плохому качеству воздуха.
+  — Если гарпия подвергается воздействию как минимум 0,2 моля связанного CO2 и/или миазмы, ей становится трудно усваивать кислород.
 
 </Document>
