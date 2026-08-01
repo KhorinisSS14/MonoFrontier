@@ -22,6 +22,10 @@
   - Frontier
   - StationTrafficController
   special:
+  - !type:AddComponentSpecial
+    components:
+    - type: ChatRank
+      rank: cc-stc
   - !type:GiveItemOnHolidaySpecial
     holiday: FrontierBirthday
     prototype: FrontierBirthdayGift
