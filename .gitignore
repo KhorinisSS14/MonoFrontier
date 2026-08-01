@@ -314,3 +314,4 @@ Resources/MapImages
 *.lnk
 
 /ServerFiles
+Scripts/bat/runQuickServer.bat
