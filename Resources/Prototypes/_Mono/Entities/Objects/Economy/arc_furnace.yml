@@ -81,7 +81,6 @@
     materialComposition:
       Steel: 1000
       Plasteel: 500
-  - type: MultiHandedItem
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.8
@@ -200,6 +199,9 @@
         acts: [ "Destruction" ]
   - type: StaticPrice
     price: 3000
+  - type: Construction
+    graph: ArmorPlateEconomy2Finish
+    node: finished
 
 - type: entity
   name: heavy armor plate (unfinished)
@@ -257,7 +259,6 @@
         acts: [ "Destruction" ]
   - type: Item
     size: Huge
-  - type: MultiHandedItem
   - type: ClothingSpeedModifier
     walkModifier: 0.8
     sprintModifier: 0.6
@@ -413,7 +414,7 @@
     butcheringType: Knife
     spawned:
       - id: ArmorPlateEconomy3Fragment
-        amount: 5
+        amount: 4
 
 - type: entity
   name: broken composite armor plate
@@ -439,7 +440,6 @@
         acts: [ "Destruction" ]
   - type: Item
     size: Huge
-  - type: MultiHandedItem
   - type: ClothingSpeedModifier
     walkModifier: 0.8
     sprintModifier: 0.6
@@ -457,7 +457,7 @@
 
 - type: entity
   name: EMAG armor plate (unfinished)
-  description: The ceramic/metallic plate component of an EMAG armor plate, fresh off the forge and awaiting its electronic components. Needs 30 LV cables to begin construction, then significant screwing and cutting.
+  description: The ceramic/metallic plate component of an EMAG armor plate, fresh off the forge and awaiting its electronic components. Needs a compound electromagnet to begin construction, then significant screwing and cutting.
   parent: ArmorPlateEconomy4Broken
   id: ArmorPlateEconomy4Start
   components:
@@ -555,7 +555,6 @@
         acts: [ "Destruction" ]
   - type: Item
     size: Huge
-  - type: MultiHandedItem
   - type: ClothingSpeedModifier
     walkModifier: 0.7
     sprintModifier: 0.5
