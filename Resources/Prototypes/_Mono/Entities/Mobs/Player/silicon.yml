@@ -353,7 +353,7 @@
       settings: default
     requirements:
     - !type:OverallPlaytimeRequirement
-      time: 3600 # KHR
+      time: 180000 # 50 hrs
   - type: GhostTakeoverAvailable
 
 # Remnant AI core
@@ -493,7 +493,7 @@
     prototype: VesselAICore
     requirements:
     - !type:OverallPlaytimeRequirement
-      time: 3600 # KHR
+      time: 180000 # 50 hrs
   - type: GhostTakeoverAvailable
   - type: RandomMetadata
     nameSegments: [ VesselCoreNameset ]
@@ -563,7 +563,10 @@
     prototype: TSFMCAICore
     requirements:
     - !type:OverallPlaytimeRequirement
-      time: 3600 # KHR
+      time: 180000 # 50 hrs
+    - !type:RoleTimeRequirement
+      role: JobTsfBorg
+      time: 28800 # 8 hours
   - type: GhostTakeoverAvailable
   - type: RandomMetadata
     nameSegments: [ TSFMCCoreNameset ]
@@ -648,8 +651,8 @@
     - !type:OverallPlaytimeRequirement
       time: 180000 # 50 hrs
     - !type:RoleTimeRequirement
-      role: JobPirateFirstMate
-      time: 54000 # 15 hours
+      role: JobPdvBorg
+      time: 28800 # 8 hours
   - type: GhostTakeoverAvailable
   - type: RandomMetadata
     nameSegments: [ PDVCoreNameset ]

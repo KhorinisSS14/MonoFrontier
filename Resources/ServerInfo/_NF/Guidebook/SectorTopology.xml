@@ -1,21 +1,16 @@
 <Document>
-# Топология сектора
+# Sector Topology
 
 <!-- Note: range values will not scale with the world size cvar! -->
 
-Сектор Колосс состоит из крупного астероидного пояса дискообразной формы. В центре пояса расположена Станция Колосс — точка прибытия как для новичков, так и для опытных пилигримов.
+The Colossus Sector topology consists of multiple rings and clusters for resources.
 
-Область непосредственно вокруг Станции Колосс — это преимущественно пустое пространство. За её пределами расположены [bold]четыре отдельные зоны[/bold]:
+The area immediately around Colossus Central is mostly empty space. Beyond this, there are [bold]five distinct zones[/bold]:
 
-<Box Margin="0">
-  <GuideEntityEmbed Entity="MonoSectorMap" Caption="" Margin="-20"/>
-</Box>
+- There are 2 clusters, [color=gold]INSO-357k[/color] & [color=maroon]LINEAR-21[/color]. They are significantly richer than the surrounding space, with one being a graveyard of scrap and the other a dense area of rock.
+- The [color=#fbf236]inner rubicon[/color] ([color=gold]~8.5–9 km[/color]) is a thin but dense belt of asteroids and scrap marking the border of civilized space.
+- The [color=#286c9c]outer cloud[/color] ([color=gold]~16 km and beyond[/color]) is a sparser and older field, yet much wider to mine in, with a much more diverse set of asteroids and scrap.
 
-- [color=#c73232]Внутреннее кольцо[/color] ([color=gold]≤5 км[/color]) застроено базами обслуживающих станций, таких как [color=forestgreen]Торговый форпост[/color] и [color=mediumturquoise]Медицинский диспетчерский пункт[/color]. Здесь ещё можно встретить разбросанный металлолом, небольшие астероиды и отдельные обломки кораблей, однако более ценные ресурсы расположены дальше. На границе этой зоны находятся [color=green]Грузовые депо[/color] — основные пункты назначения для грузовых фрахтовщиков.
-- [color=#fbf236]Среднее кольцо[/color] ([color=gold]~5–9 км[/color]) составляет основу нашей промышленной инфраструктуры. Благодаря разнообразию [color=orchid]минералов[/color] для добычи и множеству [color=lightpink]газовых месторождений[/color] для бурения, эта зона служит [color=peru]главным источником ресурсов для шахтёров[/color].
-- [color=#286c9c]Внешнее кольцо[/color] ([color=gold]~9–20 км[/color]) — здесь вы найдёте массивные [color=skyblue]ледяные астероиды[/color] и необычные [color=orange]латунные обломки[/color]. Это кольцо представляет наибольший интерес для [color=plum]исследователей[/color] сектора.
-- [color=#af0f0f]Дальнее кольцо[/color] ([color=gold]20+ км[/color]) [color=red]изучено недостаточно[/color]. Зафиксированы случаи встреч с неизвестными кораблями.
-
-За пределами этой зоны дальнее кольцо простирается бесконечно. Путешественники, входящие в эту область без надлежащей подготовки и средств защиты, рискуют не вернуться.
+The outer cloud spans indefinitely. Travellers entering this zone without sufficient preparation and means of threat management risk never returning again.
 
 </Document>
